@@ -1,7 +1,7 @@
-import { join } from "path";
-
-import { app, BrowserWindow } from "electron";
-import isDev from "electron-is-dev";
+/* eslint-disable @typescript-eslint/no-var-requires */
+const path = require("path");
+const { app, BrowserWindow } = require("electron");
+const isDev = require("electron-is-dev");
 
 function createWindow() {
   // Create the browser window.
@@ -18,7 +18,7 @@ function createWindow() {
   mainWindow.loadURL(
     isDev
       ? "http://localhost:3000"
-      : `file://${join(__dirname, "../build/index.html")}`
+      : `file://${path.join(__dirname, "../build/index.html")}`
   );
 
   // Open the DevTools.
