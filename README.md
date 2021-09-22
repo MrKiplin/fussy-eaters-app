@@ -1,6 +1,6 @@
 # Fussy Eaters App
 
-Desktop app for tracking fussy eating habbits
+Desktop app for tracking fussy eating habits
 
 ## Getting Started
 
@@ -37,12 +37,6 @@ Unit tests use [jest](https://facebook.github.io/jest/). Tests can be run global
 
 ```shell
 yarn test
-```
-
-### Integration Tests
-
-```shell
-yarn test:integration
 ```
 
 ### Coding Style Tests
