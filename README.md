@@ -1,6 +1,6 @@
-# Fussy Eaters App
+# React Electron Template
 
-Desktop app for tracking fussy eating habits
+A simple template for integrating React into an Electron desktop app.
 
 ## Getting Started
 

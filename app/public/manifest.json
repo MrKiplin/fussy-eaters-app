@@ -1,6 +1,6 @@
 {
-  "short_name": "Fussy Eaters",
-  "name": "Fussy Eaters Desktop App",
+  "short_name": "react-electron",
+  "name": "react-electron-template",
   "icons": [
     {
       "src": "favicon.ico",
