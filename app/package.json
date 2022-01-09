@@ -1,7 +1,8 @@
 {
   "name": "app",
   "version": "0.1.0",
-  "main": "dist/electron.js",
+  "type": "module",
+  "main": "build/electron.js",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",

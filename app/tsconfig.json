@@ -15,15 +15,10 @@
     "module": "esnext",
     "target": "es2018",
     "sourceMap": true,
-    "outDir": "dist",
+    "outDir": "build",
     "rootDir": "src",
     "resolveJsonModule": true,
-    "lib": [
-      "es2015",
-      "es2018",
-      "esnext.asynciterable",
-      "dom"
-    ],
+    "lib": ["es2015", "es2018", "esnext.asynciterable", "dom"],
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "noFallthroughCasesInSwitch": true,
@@ -31,11 +26,6 @@
     "isolatedModules": true,
     "noEmit": true
   },
-  "include": [
-    "src"
-  ],
-  "exclude": [
-    "node_modules",
-    "dist"
-  ]
+  "include": ["src"],
+  "exclude": ["node_modules", "build"]
 }

@@ -2,7 +2,6 @@
   "name": "fussy-eaters-app",
   "version": "1.0.0",
   "description": "Desktop app for tracking fussy eating habits",
-  "main": "index.js",
   "repository": "https://github.com/MrKiplin/fussy-eaters-app.git",
   "author": "MrKiplin <tjworks@hotmail.co.uk>",
   "license": "MIT",
