@@ -1,9 +1,9 @@
 {
-  "name": "fussy-eaters-app",
+  "name": "react-electron-template",
   "version": "1.0.0",
-  "description": "Desktop app for tracking fussy eating habits",
+  "description": "A simple template for integrating React into an Electron desktop app",
   "main": "index.js",
-  "repository": "https://github.com/MrKiplin/fussy-eaters-app.git",
+  "repository": "https://github.com/MrKiplin/react-electron-template.git",
   "author": "MrKiplin <tjworks@hotmail.co.uk>",
   "license": "MIT",
   "private": true,
